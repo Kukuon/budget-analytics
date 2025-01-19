@@ -1,0 +1,123 @@
+body {
+    font-family: "Calibri";
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #24892a;
+    color: #f1e9e9;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #24892a;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.add-category-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.add-category-form label,
+.add-category-form input,
+.add-category-form select,
+.add-category-form button {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.add-category-form input,
+.add-category-form select {
+    padding: 10px;
+    border: 1px solid #256d18;
+    border-radius: 5px;
+    width: calc(20% - 22px);
+}
+
+.add-category-form button {
+    padding: 10px 20px;
+    background-color: #106322;
+    color: #f1e9e9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-category-form button:hover {
+    background-color: #165426;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: rgba(234, 227, 227, 0.5);
+}
+
+th {
+    background-color: #247a35;
+    color: #fff;
+}
+
+.category-color-box {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    border: 1px solid #333;
+}
+
+footer {
+    background-color: #2c2c2c;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin: 20px auto 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}

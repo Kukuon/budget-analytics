@@ -1,0 +1,138 @@
+body {
+    font-family: "Calibri";
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #24892a;
+    color: #f1e9e9;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #24892a;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.container-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.text-container {
+    background-color: rgba(101, 101, 101, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    width: 45%; /* Adjust width to fit two containers in a row */
+}
+
+.goals-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.goal {
+    background-color: rgba(86, 86, 86, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.goal img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+form {
+    background-color: rgba(105, 105, 105, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label, form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+form button {
+    background-color: #1d7333;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #207b24;
+}
+
+footer {
+    background-color: #2c2c2c;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin: 20px auto 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.goals-container h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.achieved-goals {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
